@@ -319,13 +319,13 @@ public class ControllerBaseGame extends ControllerBase {
     @FXML
     protected Circle imgMovingThief;
     @FXML
-    protected Rectangle imgRoad;
+    protected Circle imgRoad;
     @FXML
-    protected Rectangle imgVillage;
+    protected Circle imgVillage;
     @FXML
-    protected Rectangle imgCity;
+    protected Circle imgCity;
     @FXML
-    protected Rectangle imgCivilisation;
+    protected Circle imgCivilisation;
     @FXML
     protected Rectangle imgPriceCard;
     @FXML

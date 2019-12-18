@@ -303,24 +303,24 @@
             <Image url="@../assets/icon_frame.png" />
          </image>
       </ImageView>
-      <HBox layoutX="809.0" layoutY="931.0" prefHeight="100.0" prefWidth="200.0">
+      <HBox layoutX="763.0" layoutY="916.0" prefHeight="137.0" prefWidth="501.0">
          <children>
-            <Rectangle fx:id="imgRoad" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="101.0" onMouseClicked="#selectConstruction" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="97.0" />
-            <Rectangle fx:id="imgVillage" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="101.0" onMouseClicked="#selectConstruction" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="97.0" />
-            <Rectangle fx:id="imgCity" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="101.0" onMouseClicked="#selectConstruction" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="97.0" />
-            <Rectangle fx:id="imgCivilisation" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="101.0" onMouseClicked="#selectConstruction" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="97.0" />
+            <Circle fx:id="imgRoad" fill="DODGERBLUE" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="imgVillage" fill="DODGERBLUE" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="imgCity" fill="DODGERBLUE" layoutX="61.0" layoutY="61.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="imgCivilisation" fill="DODGERBLUE" layoutX="162.0" layoutY="60.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
          </children>
       </HBox>
       <Rectangle fx:id="imgPriceCard" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="187.0" layoutX="144.0" layoutY="84.0" stroke="BLACK" strokeType="INSIDE" width="292.0" />
       <VBox layoutX="1546.0" layoutY="82.0" prefHeight="170.0" prefWidth="300.0">
          <children>
-            <JFXButton onAction="#playDevelopmentCard" styleClass="game-button" text="Play Development Card" />
-            <JFXButton onAction="#buyDevelopmentCard" styleClass="game-button" text="Buy Development Card">
+            <JFXButton onAction="#playDevelopmentCard" styleClass="game-button" text="%gameView_playDevelopmentCard" />
+            <JFXButton onAction="#buyDevelopmentCard" styleClass="game-button" text="%gameView_buyDevelopmentCard">
                <VBox.margin>
                   <Insets top="10.0" />
                </VBox.margin>
             </JFXButton>
-            <JFXButton onAction="#trade" styleClass="trade-button" text="Trade">
+            <JFXButton onAction="#trade" styleClass="trade-button" text="%gameView_tradeButton">
                <VBox.margin>
                   <Insets top="10.0" />
                </VBox.margin>
@@ -342,7 +342,7 @@
                   <Insets left="10.0" />
                </HBox.margin>
             </Rectangle>
-            <JFXButton id="end-button" onAction="#endTurn" text="End Turn">
+            <JFXButton id="end-button" onAction="#endTurn" text="%gameView_endTurnButton">
                <HBox.margin>
                   <Insets left="10.0" />
                </HBox.margin>

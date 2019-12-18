@@ -175,11 +175,11 @@ public class ControllerGame extends ControllerBaseGame implements InterfaceMakeC
 
     @FXML
     public void selectConstruction(MouseEvent mouseEvent) {
-        Rectangle rectangle = (Rectangle) mouseEvent.getSource();
+        Circle circle = (Circle) mouseEvent.getSource();
         if (isStepInitial) {
-            selectConstructionInitial(rectangle);
+            selectConstructionInitial(circle);
         } else {
-            selectConstructionActual(rectangle);
+            selectConstructionActual(circle);
         }
     }
 
@@ -989,7 +989,7 @@ public class ControllerGame extends ControllerBaseGame implements InterfaceMakeC
         }
     }
 
-    private void selectConstructionActual(Rectangle rectangle) {
+    private void selectConstructionActual(Circle rectangle) {
         // setting all of the pane as unselected
         imgRoad.setStroke(Constants.COLOR_CONSTRUCTION_UNSELECTED);
         imgCity.setStroke(Constants.COLOR_CONSTRUCTION_UNSELECTED);
@@ -1196,7 +1196,7 @@ public class ControllerGame extends ControllerBaseGame implements InterfaceMakeC
         }
     }
 
-    private void selectConstructionInitial(Rectangle rectangle) {
+    private void selectConstructionInitial(Circle rectangle) {
         // setting all of the pane as unselected
         imgRoad.setStroke(Constants.COLOR_CONSTRUCTION_UNSELECTED);
         imgCity.setStroke(Constants.COLOR_CONSTRUCTION_UNSELECTED);

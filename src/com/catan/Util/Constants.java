@@ -29,7 +29,7 @@ public class Constants {
     public static final String PATH_ROAD = "./com/catan/assets/road.png";
     public static final String PATH_VILLAGE = "./com/catan/assets/village.png";
     public static final String PATH_CITY = "./com/catan/assets/city.png";
-    public static final String PATH_CIVILISATION = "./com/catan/assets/civilisation.jpg";
+    public static final String PATH_CIVILISATION = "./com/catan/assets/civilisation.png";
     public static final String PATH_CARD_PRICE = "./com/catan/assets/price_card.png";
     public static final String PATH_HARBOUR = "./com/catan/assets/harbour.gif";
 
