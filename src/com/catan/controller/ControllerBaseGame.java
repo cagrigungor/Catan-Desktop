@@ -587,8 +587,9 @@ public class ControllerBaseGame extends ControllerBase {
         harbours.add( new Harbour(Constants.HARBOUR, harbour17, Constants.HARBOUR_NO_RATIO) );
         harbours.add( new Harbour(Constants.HARBOUR, harbour18, Constants.HARBOUR_NO_RATIO) );
 
+        Image img = new Image(Constants.PATH_HARBOUR);
         for (Harbour harbour: harbours) {
-            Image img = new Image(Constants.PATH_HARBOUR);
+
             harbour.getShape().setFill(new ImagePattern(img));
             harbour.getShape().setStroke(Color.color(0,0.3,1));
             harbour.getShape().setStrokeWidth(1);

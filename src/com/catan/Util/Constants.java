@@ -61,10 +61,10 @@ public class Constants {
     public static final String PATH_HEX_FIELDS = "./com/catan/assets/fields.png";
     public static final String PATH_HEX_HILL = "./com/catan/assets/hill.png";
 
-    public static final String COLOR_RED = "red";
-    public static final String COLOR_GREEN = "green";
-    public static final String COLOR_PURPLE = "purple";
-    public static final String COLOR_BLUE = "blue";
+    public static final String COLOR_RED = "Red";
+    public static final String COLOR_GREEN = "Green";
+    public static final String COLOR_PURPLE = "Purple";
+    public static final String COLOR_BLUE = "Blue";
 
     public static final Color COLOR_RGB_RED = Color.valueOf("#ff0000");
     public static final Color COLOR_RGB_GREEN = Color.valueOf("#00ff00");

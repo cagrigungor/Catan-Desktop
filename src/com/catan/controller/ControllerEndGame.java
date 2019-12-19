@@ -19,14 +19,14 @@ public class ControllerEndGame{
     private JFXButton btnExit;
     @FXML
     private Label labelWon;
-    private String playerName;
+    private String playerColor;
     private int victoryThreshold;
     public void initialize() {
-        labelWon.setText(playerName+" has reached the "+ victoryThreshold +" victory points.");
+        labelWon.setText(playerColor+" won the game by reaching the "+ victoryThreshold +" victory points.");
 
     }
-    public void setProperties(String playerName,int victoryThreshold) {
-        this.playerName = playerName;
+    public void setProperties(String playerColor,int victoryThreshold) {
+        this.playerColor = playerColor;
         this.victoryThreshold = victoryThreshold;
         initialize();
     }

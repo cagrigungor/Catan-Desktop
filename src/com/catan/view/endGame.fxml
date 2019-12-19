@@ -5,17 +5,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="837.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.catan.controller.ControllerEndGame">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="768.0" style="-fx-background-image: url('com/catan/assets/confetti.gif');" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.catan.controller.ControllerEndGame">
    <children>
-      <Label fx:id="labelWon" layoutX="190.0" layoutY="241.0" prefHeight="92.0" prefWidth="535.0" text="Player X has reached to 10 victory points.">
+      <Label fx:id="labelWon" layoutX="91.0" layoutY="207.0" prefHeight="92.0" prefWidth="611.0" text="Player X won the game by reaching the 10 victory points.">
          <font>
             <Font size="24.0" />
          </font></Label>
-      <Label graphicTextGap="5.0" layoutX="202.0" layoutY="58.0" prefHeight="136.0" prefWidth="500.0" stylesheets="@style.css" text="     Congratulation">
+      <Label graphicTextGap="5.0" layoutX="124.0" layoutY="57.0" prefHeight="136.0" prefWidth="521.0" stylesheets="@style.css" text="     The Game is Over !">
          <font>
             <Font size="48.0" />
          </font>
       </Label>
-      <JFXButton fx:id="btnExit" layoutX="269.0" layoutY="407.0" onAction="#returnMain" prefHeight="77.0" prefWidth="315.0" styleClass="settings-button" stylesheets="@style.css" text="Return to Main Menu" />
+      <JFXButton fx:id="btnExit" layoutX="234.0" layoutY="365.0" onAction="#returnMain" prefHeight="77.0" prefWidth="315.0" styleClass="settings-button" stylesheets="@style.css" text="Return to Main Menu" />
    </children>
 </AnchorPane>

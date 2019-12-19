@@ -262,8 +262,7 @@ public class Player {
     }
 
     private void addDevelopmentCard(String developmentType) {
-        int count = developmentCards.get(developmentType);
-        developmentCards.put(developmentType, count + 1);
+        developmentCards.put(developmentType, developmentCards.get(developmentType) + 1);
     }
 
     @Override

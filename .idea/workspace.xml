@@ -3,20 +3,55 @@
   <component name="ChangeListManager">
     <list default="true" id="8fb305d9-5761-41b4-81c9-9e645d9ceb54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/Util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/Util/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city_blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city_blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city_green.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city_green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city_purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city_purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/city_red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/civilisation.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/civilisation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/civilisation_blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/civilisation_blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/civilisation_green.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/civilisation_green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/civilisation_purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/civilisation_purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/civilisation_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/civilisation_red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/road.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/road.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/village.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/village.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/village_green.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/village_green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/village_purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/assets/village_purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/controller/ControllerBaseGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/controller/ControllerBaseGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/controller/ControllerEndGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/controller/ControllerEndGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/controller/ControllerGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/controller/ControllerGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/controller/ControllerProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/controller/ControllerProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/modal/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/modal/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/modal/Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/modal/Vertex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/persistent_data/settings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/persistent_data/settings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/view/endGame.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/view/endGame.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/view/game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS319_Group3B_Catan/com/catan/view/game.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/catan/Util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/Util/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/catan/assets/city.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/city.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/city1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/city1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/catan/assets/city_blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/city_blue.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/catan/assets/city_green.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/city_green.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/catan/assets/city_purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/city_purple.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/catan/assets/city_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/city_red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/civilisation.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/village1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/village_blue1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/village_green1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/village_purple1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/village_red1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/civilisation.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/civilisation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/civilisation_blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/civilisation_blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/civilisation_green.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/civilisation_green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/civilisation_purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/civilisation_purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/civilisation_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/civilisation_red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/road.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/road.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/village.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/village.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/village_green.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/village_green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/assets/village_purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/assets/village_purple.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/catan/controller/ControllerBaseGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/controller/ControllerBaseGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/controller/ControllerEndGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/controller/ControllerEndGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/catan/controller/ControllerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/controller/ControllerGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/controller/ControllerProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/controller/ControllerProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/modal/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/modal/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/modal/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/modal/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/persistent_data/settings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/persistent_data/settings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/catan/view/endGame.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/view/endGame.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/catan/view/game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/catan/view/game.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,7 +176,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="84fac676-6633-4064-8006-7cc76f71232c" name="Default Changelist" comment="" />
+      <changelist id="8fb305d9-5761-41b4-81c9-9e645d9ceb54" name="Default Changelist" comment="" />
       <created>1359379246138</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

@@ -15,12 +15,15 @@ import java.util.ResourceBundle;
 
 public class ControllerProgram {
 
+    private Object ControllerGame;
+
     @FXML
     public void gotoPlayGame(ActionEvent actionEvent) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
             ResourceBundle bundle = ResourceBundle.getBundle("com.catan.resources.language", new Locale(Settings.languauge),  new UTF8Control());
             Parent root = fxmlLoader.load(getClass().getResource("../view/game.fxml"), bundle);
+
             Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
             window.getScene().setRoot(root);
         } catch (IOException e) {

@@ -62,7 +62,7 @@ public class Vertex {
     }
 
     public boolean hasConstruction() {
-        return shape.getRadius() == Constants.CONSTRUCTION_RADIUS;
+        return settlement != null;
     }
 
     public Settlement getSettlement() {
