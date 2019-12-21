@@ -1077,7 +1077,7 @@ public class ControllerGame extends ControllerBaseGame implements InterfaceMakeC
         tempRoad = null;
         tempSettlement = null;
         int count = 0;
-        while ((tempSettlement == null || tempRoad == null)&count<115) {
+        while ((tempSettlement == null || tempRoad == null)&count<400) {
             count++;
             if ((tempRoad != null)) {
                 tempRoad.getRoad().setStroke(Color.BLACK);
@@ -1093,7 +1093,7 @@ public class ControllerGame extends ControllerBaseGame implements InterfaceMakeC
 
             ArrayList<Vertex> thiefVertices = thief.getTerrainHex().getVertices();
             Set<Vertex> set = new HashSet<>(outerVertices);
-            if(count < 60)
+            if(count < 180)
                 set.addAll(thiefVertices);
             ArrayList<Vertex> undesiredVertices = new ArrayList<>(set);
             ArrayList<Vertex> desiredVertices = new ArrayList<>();
@@ -1104,7 +1104,7 @@ public class ControllerGame extends ControllerBaseGame implements InterfaceMakeC
                 if (number == 5 || number == 6 || number == 7 || number == 8) {
                     desiredVertices.addAll(terrainHexes.get(i).getVertices());
                 }
-                if(count > 70) {
+                if(count > 110) {
                     desiredVertices.addAll(terrainHexes.get(i).getVertices());
                 }
 
@@ -1126,14 +1126,23 @@ public class ControllerGame extends ControllerBaseGame implements InterfaceMakeC
             // setting first vertex of road;
             //int index = (int) (Math.random() * getActivatedVertices().size());
             Vertex vertex = desiredVertices.get ((int)(Math.random() * desiredVertices.size()));
-            desiredVertices.remove(vertex);
-            makeConstructionInitial(vertex);
+            if(isVertexSuitableForConstruction(vertex))
+                desiredVertices.remove(vertex);
 
 
             // setting second vertex of road;
-            vertex = desiredVertices.get ((int)(Math.random() * desiredVertices.size()));
-            desiredVertices.remove(vertex);
-            makeConstructionInitial(vertex);
+            Vertex vertex2 = desiredVertices.get ((int)(Math.random() * desiredVertices.size()));
+            if(isVertexSuitableForConstruction(vertex2))
+                desiredVertices.remove(vertex2);
+
+            if(isVertexSuitableForConstruction(vertex) || isVertexSuitableForConstruction(vertex2)) {
+                makeConstructionInitial(vertex);
+                makeConstructionInitial(vertex2);
+                if(!isVertexSuitableForConstruction(vertex))
+                    desiredVertices.remove(vertex);
+                if(!isVertexSuitableForConstruction(vertex2))
+                    desiredVertices.remove(vertex2);
+            }
 
             setSelectedConstruction(Constants.VILLAGE);
             if (tempRoad != null) {
@@ -1147,21 +1156,7 @@ public class ControllerGame extends ControllerBaseGame implements InterfaceMakeC
                 else if (isVertexSuitableForConstruction(twoVertex.get(1)) & !undesiredVertices.contains(twoVertex.get(1))){
                     makeConstructionInitial(twoVertex.get(1));
                 }
-                else
-                    if(isVertexSuitableForConstruction(twoVertex.get(0).getNeighbors().get(0))& !undesiredVertices.contains(twoVertex.get(0).getNeighbors().get(0)))
-                        makeConstructionInitial(twoVertex.get(0).getNeighbors().get(0));
-                    else if(isVertexSuitableForConstruction(twoVertex.get(0).getNeighbors().get(1))& !undesiredVertices.contains(twoVertex.get(0).getNeighbors().get(1)))
-                        makeConstructionInitial(twoVertex.get(0).getNeighbors().get(1));
-                    else if(isVertexSuitableForConstruction(twoVertex.get(1).getNeighbors().get(0))& !undesiredVertices.contains(twoVertex.get(1).getNeighbors().get(0)))
-                        makeConstructionInitial(twoVertex.get(1).getNeighbors().get(0));
-                    else
-                        makeConstructionInitial(twoVertex.get(1).getNeighbors().get(1));
-                        if(tempSettlement == null || tempRoad == null)
-                            makeConstructionInitial(twoVertex.get(1).getNeighbors().get(0));
-                        if(tempSettlement == null || tempRoad == null)
-                            makeConstructionInitial(twoVertex.get(0).getNeighbors().get(0));
-                        if(tempSettlement == null || tempRoad == null)
-                            makeConstructionInitial(twoVertex.get(0).getNeighbors().get(1));
+
             }
         }
         tempRoad = null;
